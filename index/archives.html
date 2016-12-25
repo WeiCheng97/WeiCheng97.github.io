@@ -29,8 +29,7 @@
     />
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
     <!--有关字体的css-->
-    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <script type="text/javascript" src="/js/jquery.min.js">
     </script>
     <link rel="Shortcut Icon" type="image/x-icon" href="favicon.ico" />
@@ -58,28 +57,28 @@
           </p>
         </div>
         <div id="nav-menu">
-          <a href="//index.html" class="current">
+          <a href="/index.html">
            <!--class为选择-->
             <i class="fa fa-home">
               首页
             </i>
           </a>
-          <a href="//index/archives.html">
+          <a href="/index/archives.html"  class="current">
             <i class="fa fa-archive">
               归档
             </i>
           </a>
-          <a href="//index/about.html">
+          <a href="/index/about.html">
             <i class="fa fa-user">
               关于
             </i>
           </a>
-          <a href="//index/history.html">
+          <a href="/index/history.html">
             <i class="fa fa-book">
               历史
             </i>
           </a>
-          <a href="//index/guestbook.html">
+          <a href="/index/guestbook.html">
             <i class="fa fa-book">
               留言
             </i>
@@ -91,36 +90,27 @@
         <div class="pure-u-1 pure-u-md-3-4">
           <div class="content_container">
             <div class="post">
-              <h2 class="post-title">
-                <a href="emotion/December.html">
-                  我
-                
-                </a>
-              </h2>
-              <div class="post-meta">
-                2016年12月25日
+              <div class="post-archive">
+                <!--Use lodash to classify posts. See https://lodash.com/docs#groupBy-->
+                <h2>
+                  2016
+                </h2>
+                <ul class="listing">
+                  <li>
+                    <span class="date">
+                      2016/12/25
+                    </span>
+                    <a href="/categories/me/me.html" title="我">
+                      我
+                    </a>
+                  </li>
+                  
+                </ul>
               </div>
-              <div class="post-content">
-                已然是2016的最后一周，借着最后的大作业，做一些一直想做的事...
-              </div>
-              <p class="readmore">
-                <a href="/categories\me\me.html">
-                  阅读更多
-                </a>
-              </p>
             </div>
-            <!--翻页按钮的导航-->
-            <nav class="page-navigator">
-              <span class="page-number current">
-                1
-              </span>
-              <!--多页时时的换页 <a class="page-number" href="page/2/2.html">2</a>
-              <a class="extend next" rel="next" href="page/2/2.html">下一页</a>
-              -->
-            </nav>
           </div>
         </div>
-        <!--一下是通用的尾巴-->
+         <!--一下是通用的尾巴-->
         <div class="pure-u-1-4 hidden_mid_and_down">
           <div id="sidebar">
             <div class="widget">
@@ -152,7 +142,7 @@
                 </i>
               </div>
               <div class="tagcloud">
-                <a href="/tags/me/me.html" style="font-size: 15px;">
+                <a href="tags/me/me.html" style="font-size: 15px;">
                   我
                 </a>
               </div>
@@ -178,11 +168,6 @@
               Weicheng
             </a>
           </div>
-          <div class="ribbon">
-            <a href="https://github.com/WeiCheng97">
-              Fork me on GitHub
-            </a>
-          </div>
         </div>
       </div>
       <a id="rocket" href="//index.html#top"
@@ -205,3 +190,5 @@
       </script>
     </div>
   </body>
+
+</html>
